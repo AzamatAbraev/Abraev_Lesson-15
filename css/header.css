@@ -1,0 +1,67 @@
+header {
+  position: fixed;
+  margin-left: var(--aside-width);
+  width: calc(1400px - var(--aside-width));
+  height: var(--aside-height);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 910px;
+  z-index: 100;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  /* justify-content: space-between; */
+}
+
+.hamburger button {
+  background-color: transparent;
+  border: none;
+}
+
+.hamburger {
+  padding-left: 29px;
+}
+
+.user-account button img {
+  width: 44px;
+  height: 44px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 50%;
+}
+
+.user-account button {
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.user-account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 14px;
+}
+
+@media (max-width: 1400px) {
+  .user-account {
+    position: fixed;
+    right: 10px;
+    /* top: 10px; */
+  }
+
+}

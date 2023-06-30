@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma with Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Mulish:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="aside-top">
+          <div class="aside-logo">
+            <a href="index.html">
+              <img src="images/aside/Logo.svg" alt="Logo" />
+              <p>Dashboard</p>
+            </a>
+          </div>
+          <div class="aside-menu">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                  <img src="images/aside/pie-chart.svg" alt="Overview" />
+                  <span>Overview</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/tickets.html" class="nav-link">
+                  <img src="images/aside/ticket.svg" alt="Tickets" />
+                  <span>Tickets</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img src="images/aside/ideas.svg" alt="Ideas" />
+                  <span>Ideas</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img src="images/aside/contact-info.svg" alt="Contact" />
+                  <span>Contacts</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img src="images/aside/agents.svg" alt="Agents" />
+                  <span>Agents</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img src="images/aside/articles.svg" alt="Articles" />
+                  <span>Articles</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="aside-bottom">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" id="dark-light" class="nav-link">
+                <img src="images/aside/dark.svg" alt="Dark" />
+                <span>Change Mode</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <img src="images/aside/logout.svg" alt="Tickets" />
+                <span>Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <header>
+        <div class="hamburger" id="navbar-open">
+          <button>
+            <img src="images/header/menu.svg" alt="Menu" />
+          </button>
+        </div>
+        <div class="user-account">
+          <p>Elon Musk</p>
+          <button>
+            <img src="images/header/elon-musk.jpg" alt="Elon Musk" />
+          </button>
+        </div>
+      </header>
+      <main>
+        <section class="table-section">
+          <div class="table-top">
+            <div class="table-header">
+              <h1>Overview</h1>
+            </div>
+            <div class="table-buttons">
+              <button class="dots">
+                <img src="images/header/Dots.svg" alt="Dots" />
+              </button>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+          <div class="table-bottom">
+            <table>
+              <thead>
+                <tr>
+                  <th>Owner</th>
+                  <th>End date</th>
+                  <th>Profits</th>
+                  <th>Losses</th>
+                  <th>Phone</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="pic-text">
+                    <img src="images/main/table-1.png" alt="Savannah Nguyen" />
+                    <p>Savannah Nguyen</p>
+                  </td>
+                  <td>1/15/12</td>
+                  <td>$328.85</td>
+                  <td>$779.58</td>
+                  <td>(603) 555-0123</td>
+                </tr>
+                <tr>
+                  <td class="pic-text">
+                    <img src="images/main/table-2.png" alt="Jenny Wilson" />
+                    <p>Jenny Wilson</p>
+                  </td>
+                  <td>8/30/14</td>
+                  <td>$948.55</td>
+                  <td>$589.99</td>
+                  <td>(629) 555-0129</td>
+                </tr>
+                <tr>
+                  <td class="pic-text">
+                    <img src="images/main/table-3.png" alt="Annette Black" />
+                    <p>Annette Black</p>
+                  </td>
+                  <td>5/30/14</td>
+                  <td>$778.35</td>
+                  <td>$948.55</td>
+                  <td>(308) 555-0121</td>
+                </tr>
+                <tr>
+                  <td class="pic-text">
+                    <img src="images/main/table-4.png" alt="Kathryn Murphy" />
+                    <p>Kathryn Murphy</p>
+                  </td>
+                  <td>11/7/16</td>
+                  <td>$169.43</td>
+                  <td>$202.87</td>
+                  <td>(302) 555-0107</td>
+                </tr>
+                <tr>
+                  <td class="pic-text">
+                    <img
+                      src="images/main/table-5.png"
+                      alt="Cameron Williamson"
+                    />
+                    <p>Cameron Williamson</p>
+                  </td>
+                  <td>7/27/13</td>
+                  <td>$782.01</td>
+                  <td>$710.68</td>
+                  <td>(303) 555-0105</td>
+                </tr>
+                <tr>
+                  <td class="pic-text">
+                    <img src="images/main/table-6.png" alt="Kristin Watson" />
+                    <p>Kristin Watson</p>
+                  </td>
+                  <td>5/19/12</td>
+                  <td>$767.50</td>
+                  <td>$779.58</td>
+                  <td>(225) 555-0118</td>
+                </tr>
+                <tr>
+                  <td class="pic-text">
+                    <img src="images/main/table-7.png" alt="Eleanor Pena" />
+                    <p>Eleanor Pena</p>
+                  </td>
+                  <td>8/21/15</td>
+                  <td>$475.22</td>
+                  <td>$219.78</td>
+                  <td>(205) 555-0100</td>
+                </tr>
+                <tr>
+                  <td class="pic-text">
+                    <img src="images/main/table-8.png" alt="Guy Hawkins" />
+                    <p>Guy Hawkins</p>
+                  </td>
+                  <td>5/27/15</td>
+                  <td>$576.28</td>
+                  <td>$446.61</td>
+                  <td>(207) 555-0119</td>
+                </tr>
+                <tr>
+                  <td class="pic-text">
+                    <img src="images/main/table-9.png" alt="Brooklyn Simmons" />
+                    <p>Brooklyn Simmons</p>
+                  </td>
+                  <td>3/4/16</td>
+                  <td>$219.78</td>
+                  <td>$928.41</td>
+                  <td>(201) 555-0124</td>
+                </tr>
+                <tr>
+                  <td class="pic-text">
+                    <img src="images/main/table-10.png" alt="Robert Fox" />
+                    <p>Robert Fox</p>
+                  </td>
+                  <td>4/4/18</td>
+                  <td>$202.87</td>
+                  <td>$275.43</td>
+                  <td>(684) 555-0102</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
